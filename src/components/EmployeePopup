@@ -1,0 +1,19 @@
+import React from "react";
+
+function CalisanPopup({ calisan, onClose }) {
+  return (
+    <div className="popup">
+      <div className="popup-icerik">
+        <h2>{calisan.adSoyad}</h2>
+        <p>Mail: {calisan.mail}</p>
+        <p>Yaş: {calisan.yas}</p>
+        <p>Cinsiyet: {calisan.cinsiyet}</p>
+        <p>Üniversite: {calisan.universite}</p>
+        <p>Departman: {calisan.departman}</p>
+        <button onClick={onClose}>Kapat</button>
+      </div>
+    </div>
+  );
+}
+
+export default CalisanPopup;
