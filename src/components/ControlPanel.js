@@ -6,7 +6,9 @@ function ControlPanel() {
       <header className='font-bold text-4xl bg-gradient-to-r from-gray-500 to-black text-center w-full text-white ml-auto'>
         Yetkilendirme Kontrol Paneli
       </header>
-
+      <div>
+        
+      </div>
     </div>
 
   )
