@@ -7,7 +7,6 @@ function ControlPanel() {
         Yetkilendirme Kontrol Paneli
       </header>
       <div>
-        
       </div>
     </div>
 
